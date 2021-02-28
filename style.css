@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(56 45 40);
+}
+.headingtitleo
+{
+    display: inline-block;
+    font-size: 541%;
+    text-align: center;
+    margin-left: 40%;
+    color: rgb(131, 131, 131);
+    margin-bottom: 0px;
+    margin-left: 35%;
+    margin-right: 3%;
+}
+.dru
+{
+    display: inline-block;
+    width: 81.6px;
+    height: 81.6px;
+
+}
+.headingtitlet
+{
+    margin-left: 3%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 541%;
+    display: inline-block;
+    color: rgb(131, 131, 131);
+}
+.drumkeys
+{
+    margin-left:100px;
+}
+.btn-outline-dark
+{
+    
+    width: 177px;
+    height: 150px;
+    color: rgb(112, 10, 10);
+    font-size: 650%;
+}
+.drumw{background-image: url(images/tom1.png);}
+.druma{background-image: url(images/tom2.png);}
+.drums{background-image: url(images/tom3.png);}
+.drumd{background-image: url(images/tom4.png);}
+.drumj{background-image: url(images/snare.png);}
+.drumk{background-image: url(images/crash.png);}
+.druml{background-image: url(images/kick.png);}
