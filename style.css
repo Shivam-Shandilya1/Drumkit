@@ -48,3 +48,9 @@ body
 .drumj{background-image: url(images/snare.png);}
 .drumk{background-image: url(images/crash.png);}
 .druml{background-image: url(images/kick.png);}
+#instruction
+{
+    text-align: center;
+    color: white;
+    
+}
