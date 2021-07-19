@@ -1,7 +1,7 @@
 var numberOfDrumButtons = document.querySelectorAll(".btn").length;
 for(var i =0 ; i <numberOfDrumButtons; i++)
 {
-    document.querySelectorAll(".btn")[i].addEventListener("click",function(){
+    document.querySelectorAll(".btn")[i].addEventListener("click",function(e){
         var buttoninnerHtml=this.innerHTML;  
         animation(buttoninnerHtml);
         makesound(buttoninnerHtml);
@@ -9,12 +9,12 @@ for(var i =0 ; i <numberOfDrumButtons; i++)
 }
     document.addEventListener("keydown",function(event)
     { 
+      console.log(event);
       makesound(event.key);
       animation(event.key);
     });
     function makesound(key)
     {
-        var buttoninnerHtml=this.innerHTML; 
         switch(key)
         {
             
